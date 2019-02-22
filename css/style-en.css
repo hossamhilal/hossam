@@ -1,0 +1,490 @@
+/***********************************************/
+/**********************************************/
+/********= DESIGNED BY  HOSSAM HILAL    =*****/
+/********************************************/
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////\----------------//////////////////////////////////////////////////////////*/
+/*================================================// STYLE ENGLISH  //========================================================*/
+/*/////////////////////////////////////////////////\________________//////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+/*//////////////////////////////////////////////////  DIRECTION LTR   //////////////////////////////////////////////////*/
+
+
+body ,
+.top-header ,
+.item-box-bottom-btns ,
+.search-results-side ul ,
+.offer-det, .offer-price ,
+.NEW-PRODUCTS-HEAD ,
+.add-product-box input , 
+.add-product-box .nice-select.selectpicker.show-tick  , 
+.nice-select.selectpicker.show-tick ,
+.single-page-slider-box .head ,
+.requestproducts-totalprice ul ,
+.TODAY-OFFER-side .progress
+
+{
+    direction: ltr;
+}
+
+
+
+
+
+/*//////////////////////////////////////////////////  DIRECTION RTL   //////////////////////////////////////////////////*/
+
+.top-header .left_m ,
+.mid-header ,
+.TODAY-OFFER ,
+.NEW-PRODUCTS-HEAD .col.left-col ,
+.search-results-side li ,
+.single-pag-box-main-cat ,
+.requestproducts-totalprice  ,
+.shop-home-item-btns div 
+{
+    direction: rtl;
+}
+
+
+
+
+
+
+/*//////////////////////////////////////////////////  FLOAT RIGHT   //////////////////////////////////////////////////*/
+
+.main-carousel .box ,
+.home-slider-item-pic ,
+.home-slider-item-details ,
+.box.col-lg-8.col-md-8.col-sm-8.col-xs-12 ,
+.top-header .col-md-6 ,
+.header-icon-box ,
+.bottom-header .dropdown-item .svg-inline--fa  , 
+.search-results-side h3 .icofont ,
+.card-icons span ,
+.search-page-results .head ul  ,
+.search-result-number ,
+.single-page-products .head ul  , 
+.single-page-products .bottom ul ,
+.requestproducts-totalprice legand ,
+.cart-page-bottom h4 ,
+.cart-page-bottom h4 span ,
+.favourite-page .fav-box-head .fav-sp-left ,
+.total-palance h4 span ,
+.box-top-deta img  , .item-box-bottom-btns .btn:nth-child(2) ,
+.valdate-box .col ,
+.shop-home-itm-box .col-sm-2 ,
+.not-box h3 .not-time
+
+{
+    float: right !important;
+}
+
+
+
+
+
+
+
+
+
+
+/*//////////////////////////////////////////////////   FLOAT LEFT     //////////////////////////////////////////////////*/
+
+.mid-header img ,
+.main-carousel .owl-item img ,
+.pro-fav-icon ,
+.shop-setting-form ul li .form-control ,
+.shop-setting-form ul li label ,
+.field .col-6  ,
+.buy-prod-page .buy-page-box label ,
+.pg-heed-tit-srch div ,
+.product-description-body .adv-internal-box .col-sm-6 ,
+.search-result-box h3  ,
+.search-results-side li a  ,
+.branch-phone .icofont ,
+.footer-min-sect  ,
+.clothes-right-box div ,
+.search-page-results .head .box  ,
+.single-page-categ-box li a ,
+.field input 
+{
+    float: left !important;
+}
+
+
+
+
+
+
+/*//////////////////////////////////////////////////  TEXT ALIGN LEFT  //////////////////////////////////////////////////*/
+
+.product-page .brand-name , .box-bottom-deta ul  , .box-top-deta ul , .box-bottom-desription ,
+.product-description-body .properits-box ul ,
+.product-description-body .adv-internal-box .col-sm-6 ,
+.adv-internal-box h3 ,
+.adv-internal-box p ,
+.validate-comments h3 ,
+.profile-body .info-box ,
+.questions-body ,
+.register-body ,
+.return-box ,
+.shop-home-itm-data ,
+.shop-notification-page ,
+.shop-home-page ,
+.condition-box ,
+.clothes-cateogrey h4  , 
+.col.offer-title ,
+.product-page .top-box-head ul ,
+.item-box-bottom-btns  ,
+.bottom-header ul ,
+.search-results-side h3 ,
+.moly-buyprod-serives .r-l ,
+.cart-page .itm-rgt-des div  ,
+.cart-page .cart-box-head h3 ,
+.cart-page .itm-cart-detals li legend ,
+.cart-page ,
+.favourite-page .fav-box-head h3 ,
+.log-form-box label  ,
+.regist-desc-box ul li , 
+.regist-desc-box h4 ,
+.field .col-6 ,
+.buy-prod-page .buy-page-box h3  , 
+.buy-page-requestproducts h3  ,
+.footer-meue-head  , 
+.footer-box ul ,
+.brach-data ,
+.card-body , 
+.footer-min-sect ,
+.our-history ul  ,
+.add-product-box .formfield label ,
+.add-product-box input, 
+.add-product-box .nice-select.selectpicker.show-tick  , 
+.nice-select.selectpicker.show-tick  ,
+.search-results-side h2  ,
+.pag-head-title h2 ,
+.single-page-categ-box h2  ,
+.buy-page-box p ,
+.fol-prog  ,
+.requestproducts-totalprice ul ,
+.profile-side-box h4
+{
+    text-align: left !important;
+}
+
+
+
+
+
+
+
+
+
+/*////////////////////////////////////////////////  TEXT ALIGN CENTER  //////////////////////////////////////////////////*/
+
+.bottom-header .dropdown-item  ,
+.add-box div ,
+.formfield .prod-count input
+{
+    text-align: center !important;    
+}
+
+
+
+
+
+
+/*/////////////////////////////////////////////   TEXT ALIGN RIGHT   //////////////////////////////////////////////////*/
+
+.col.left-col ,
+.NEW-PRODUCTS-HEAD .col.left-col ,
+.row.fol-prog .col:nth-child(4) ,
+.moly-buyprod-serives li ,
+.field div:nth-child(2) , 
+.profile-body .info-box h4
+{
+    text-align: right !important;
+}
+
+
+
+
+
+/*//////////////////////////////////////////////////  ALL   //////////////////////////////////////////////////*/
+
+.mid-header .left-box {    padding-right: 0; }
+
+.bottom-header { padding: 0; }
+
+.color_panel {    right: -62px  !important;    left: 100%;    }
+
+.show_color_panel {   right: -3px !important;   left: 95%;  }
+
+.color_panel p .icofont  {    left: 0;    right: 3px;    top: 3px; }
+
+.main-carousel .owl-item img {    padding-left: 40px;  }
+
+.Homecarousel .owl-dots {    right:12%; } 
+
+.dropdown-item img {    left: 0;   top: 0;    position: absolute;    margin-left: 0; }
+
+.bottom-header .dropdown-item .svg-inline--fa  , .search-results-side h3 .icofont {  transform: rotate(180deg);  }
+
+.footer-head ul {    margin-right: 20px;   left: auto;    right: 0px; }
+
+.branch-name {    padding-left: 19px; }
+
+.branch-name::after {   right: auto;    margin-left: auto;    left: 2px; }
+
+.brach-map {   left: auto;    right: 30px; }
+
+.brach-data .p-r {    padding-right: 0px !important;   padding-left: 19px; }
+
+.our-history ul {    padding: 0 0 0 20px; }
+
+.our-history ul li::before {    right: auto;    left: 20px;  }
+
+.add-product-box .formfield label  , .footer-social-ul {    width: 100%; }
+
+.add-product-box legand {    padding-left: 0;    padding-right: 10px;  }
+
+.search-results-side , .search-page-results .pl {   padding-left: 0; }
+
+.add-product-box .nice-select::after  ,.shop-setting-form ul li .nice-select::after {    right: 4%;  }
+
+.search-results-side ul {    padding: 0 0 0 20px; }
+
+.search-results-side .categ span {    margin-right: 0;    margin-left: 10px; }
+
+.register-body .reg-sel-field .nice-select::after  {    right:5%;  }
+
+.pag-head-search-box .icofont {    left: auto;    right: 18px;  }
+
+.p-r {    padding-right: 0 !important;    padding-left: 10px !important;  }
+
+.single-page-categ-box li a {   padding-right: 10px;  }
+
+#smartwizard .nav.nav-tabs li:nth-child(1)::after {    right: 106px; }
+
+#smartwizard .nav.nav-tabs li:nth-child(2)::after {    right: 87px;  }
+
+#smartwizard .nav.nav-tabs li:nth-child(3)::after {    right: 75px; }
+
+.sw-theme-default > ul.step-anchor > li.done > a::after {    right: auto;      left: 89px; }
+
+.buy-prod-page .buy-page-box h3::before , .buy-page-requestproducts h3::before  {    left: 24px; }
+
+.buy-prod-page .col:nth-child(1) {    padding-left: 0;    padding-right: 5px;  }
+
+.buy-prod-page .col:nth-child(2) {    padding-right: 0;    padding-left: 5px;  }
+
+.buy-prod-page .reg-field legand  {   top: 34px;   left: auto;   right: 10px;  }
+
+.my-option {   padding-right: 0;    padding-left: 35px; }
+
+.checkmark {    right: auto;   left: 0;  }
+
+.pay-imgs {    left: auto;    right: 0; }
+
+.row.fol-prog .col:nth-child(1)::before , .row.fol-prog .col:nth-child(1)::after {    right: auto;    left: -10px;  }
+
+.row.fol-prog .col::after , .row.fol-prog .col::before  {    right: auto;    left: -13px;  }
+
+.val-comment-box li span {    left: auto;    right: 0; }
+
+.profile-side-box h4 {    padding-right: 0;    padding-left: 25px;  }
+
+.profile-body .order-box label {   margin-left: 0;    margin-right: 10px;  }
+
+.profile-body .com-prod-pic {   padding-left: 0;   padding-right: 10px;  }
+
+.profile-body .comment-status .edit {   left: auto;   right: 0;}
+
+.register-body legand , .register-body .icofont.icofont-eye { left: auto; right: 10px;}
+
+.register-body .reg-sel-field .nice-select {   line-height: 25px; }
+
+.register-body .register-form-box .col:first-child {    padding-left: 0;    padding-right: 10px;  }
+
+.shop-home-item-det legend {   padding-right: 5px; }
+
+.shop-orders .shop-home-head .or-btn {   padding-right: 0 !important;    padding-left: 17px;}
+
+.register-body .register-form-box .col:last-child {padding-left: 10px;    padding-right: 0; }
+
+.condition-box ol {   padding: 0 0 0 20px;  }
+
+.total-palance h4 span {   margin-right: 10px;    color: #9f9b9b; } 
+
+.search-results-side .validate .stars-conts {    margin-right: 0;    margin-left: 15px; }
+
+.product-page .top-box-head ul {   position: relative;}
+
+.product-page .top-box-head .discount {   position: absolute;   right: 0;}
+
+.requestproducts-totalprice legand {   padding-left: 0;  }
+
+.log-form-box label {     width: 100%; }
+
+.field input {    margin-left: 0;    margin-right: 10px; }
+
+
+
+.row.fol-prog .col:nth-child(4)::after , 
+.row.fol-prog .col:nth-child(4)::before
+{
+    right: 0 !important;
+    left: auto;
+}
+
+.search-page-results .nice-select::after ,
+.single-page-products .nice-select::after ,
+.end-date .nice-select::after 
+{ 
+    right: 10%; 
+}
+
+.search-page-results .head .box  , 
+.search-page-results .head ul li , 
+.single-page-products .head ul li ,
+.profile-page .container
+{  
+    padding: 0; 
+}
+
+.finished-order .btn
+{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    left: auto; 
+    right: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.card .prd-dis-sp {
+    right: -1px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    left: auto;
+
+}
+
+.color_panel p
+{
+    left: -34px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px !important;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px !important;
+    width: 34px;
+    height: 31px;
+}
+
+.NEW-PRODUCTS-HEAD .col.left-col .fa-chevron-left  ,
+.single-page-categ-box li .icofont
+{
+    margin-left: 4px; 
+    margin-left: 0;
+    transform: rotate(180deg);
+}
+
+.clothes-right-box 
+{   
+    border-top-left-radius: 25px;
+    overflow: hidden; 
+}
+
+
+.clothes-left-box-owl
+{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.box-bottom-deta li ,
+.product-description-body .properits-box li
+{
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.box-bottom-deta li::before  , 
+.product-description-body .properits-box li::before
+{
+    right: auto;
+    margin-left: 0;
+    left: -20px;
+    margin-right: 20px;
+}
+
+.profile-body .address-box ul li span
+{
+    border-right: 2px solid #f3f3f3;
+    padding-left: 0;
+    border-left: 0;
+    padding-right: 5px;
+}
+
+.shop-item-discount 
+{
+   left: auto;
+    border-bottom-right-radius: 0;
+    right: 0;
+    border-bottom-left-radius: 10px;
+}
+
+
+
+.mid-header .current {
+    float: right; text-align: right;
+}
+
+
+
+.pro-fav-icon {
+    text-align: left;
+    position: absolute;
+    left: 12px;
+}
+
+
+.card-icons {    padding: 0px 10px;}
+
+.br-r {   border-right: 0 !important; } 
+
+.br-ls { border-left: 1px solid #f3f3f3;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

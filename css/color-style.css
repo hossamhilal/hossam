@@ -1,0 +1,1804 @@
+
+/* =======================================
+    14. Temptale Color Panel Section Start
+======================================= */
+
+.color_panel {
+    background-color: #fff;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 0px;
+    left: -62px;
+    padding: 0px 7px;
+    position: fixed;
+    top: 5%;
+    width: auto;
+    z-index: 9999;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.color_panel ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+.show_color_panel {
+    left: -3px;
+}
+
+.color_panel p {
+
+    background: #00aacb;
+        background-color: rgb(0, 170, 203);
+    padding: 0px 0px;
+    position: absolute;
+    
+    right: -51px;
+    top: 2%;
+    width: 31px;
+    height: 30px;
+    line-height: 50px;
+    border: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px !important;
+    text-align: center;
+    line-height: 45px;
+
+}
+
+.show_color_panel p {
+
+    right: -31px; !important;
+
+}
+
+.color_panel p .icofont {
+    cursor: pointer;
+    padding: 0px 0px;
+    -webkit-animation: rotation 2s infinite linear;
+    font-size: 21px;
+    color: #fff;
+    position: absolute;
+    left: 3px;
+    top: 5px;
+
+}
+
+.color_panel>ul>li {
+    cursor: pointer;
+    display: block;
+    height: 28px;
+    margin: 10px 0;
+    width: 28px;
+}
+
+
+
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+/* =======================================
+    14. Temptale Color Panel Section End
+======================================= */
+
+
+/*===================================================
+=================//  Default   //====================
+===================================================*/
+.cb-color1  .pro-cart-icon .fa-shopping-cart ,
+.cb-color1  .pro-cart-icon .fa-shopping-cart ,
+.cb-color1  .pro-cart-icon .fa-shopping-cart ,
+{
+    color:#fff !important;
+}
+
+.cb-color1 .product-description-body .prod-active-tab , 
+.cb-color1 .similar-products .head h3 ,
+.cb-color1 .product-add-to-cart-box .insider h3 ,
+.cb-color1 .shop-home-active-tab ,
+.cb-color1 .add-dicount-box h3 ,
+.cb-color1 .shop-notification-head li ,
+.cb-color1 .add-product-head li ,
+.cb-color1 .offer-box-head .active ,
+.cb-color1 .NEW-PRODUCTS-HEAD .npro-active ,
+.cb-color1 .brand-head h3 ,
+.cb-color1 .single-page-slider-box .head h3 ,
+.cb-color1 .single-page-brands .head h3 
+{ border-bottom: 1px solid #00c5de !important;}
+
+.cb-color1  .product-description-body .prod-active-tab::before  ,
+.cb-color1  .register-body .register-form-box h3::before ,
+.cb-color1  .shop-home-active-tab::before ,
+.cb-color1  .shop-notification-head li::before ,
+.cb-color1  .add-product-head li:before ,
+.cb-color1  .buy-prod-page .buy-page-box h3::before ,
+.cb-color1  .offer-box-head .active::before  ,
+.cb-color1  .NEW-PRODUCTS-HEAD .npro-active::before  ,
+.cb-color1  .single-page-slider-box .head h3::before ,
+.cb-color1  .single-page-brands .head h3::before  ,
+.cb-color1 .buy-page-requestproducts h3::before ,
+.cb-color1  .log-form-box h3::before 
+{ border-top: 8px solid #00c5de !important;}
+
+.cb-color1  .product-add-to-cart-box  .active-choose  { border-color: #02c5de !important; }
+
+.cb-color1  .prob-choosed ,
+.cb-color1  .btn:hover , 
+.cb-color1  .btn:active , 
+.cb-color1  .btn:focus ,
+.cb-color1  .single-page-products .bottom ul a:hover,
+.cb-color1  .single-page-products .bottom ul a:active,
+.cb-color1  .single-page-products .bottom ul a:focus ,
+.cb-color1  .btn-info ,
+.cb-color1  .home-slider-item-details .btn ,
+.cb-color1  .all-offer-btn-box .btn  ,
+.cb-color1  .TODAY-OFFER-side .box ,
+.cb-color1  .add-box .btn  ,
+.cb-color1  .single-page-products .bottom ul a.active 
+{ border:1px solid #00c5de !important;} 
+
+
+.cb-color1  .single-page-products .nice-select::after ,
+.cb-color1  .search-page-results .nice-select::after
+{
+    border-bottom: 2px solid #00c5de;
+    border-right: 2px solid #00c5de;
+}
+
+.cb-color1  .return-body h2::before ,
+.cb-color1  .about-header h4::before 
+{   border-top: 10px solid #00c5de; }
+
+
+.cb-color1  .right-box h3 ,
+.cb-color1  .prod-page-today-offer .discount ,
+.cb-color1  .main-header ,
+.cb-color1  .offer-discount  ,
+.cb-color1  .our-advantages .adv-box .icon-back
+{ background: linear-gradient(to right , #5b4bea, #4b66ea ); }
+
+.bgcolor1,
+.cb-color1  .log-form-box .btn,
+.cb-color1  .checkmark,
+.cb-color1  .my-option:hover input ~ .checkmark ,
+.cb-color1  .my-option .checkmark::before,
+.cb-color1  .my-option .checkmark::before,
+.cb-color1  .center-box .valdate-bar-ul .bg-info,
+.cb-color1  .product-add-to-cart-box .prod-count span ,
+.cb-color1  .pro-today-offer-box .progress .bg-info,
+.cb-color1  .blue-h4 h4,
+.cb-color1  .shop-home-item-btns p,
+.cb-color1  .finished-order .btn ,
+.cb-color1  .finished-order .btn:hover ,
+.cb-color1  .single-page-products .bottom ul a:hover,
+.cb-color1  .single-page-products .bottom ul a:active,
+.cb-color1  .single-page-products .bottom ul a:focus ,
+.cb-color1  .btn-info ,
+.cb-color1  .header-icon-box a ,
+.cb-color1  .search-icon ,
+.cb-color1  .dropdown.first-itm ,
+.cb-color1  .Homecarousel .owl-dot ,
+.cb-color1  .home-slider-item-details .btn ,
+.cb-color1 .pro-cart-icon .fa-shopping-cart ,
+.cb-color1  .all-offer-btn-box .btn ,
+.cb-color1  .add-box .btn  ,
+.cb-color1  .footer-head ul ,
+.cb-color1  .pagination-next-btn ,
+.cb-color1  .color_panel  p ,
+.cb-color1  .brach-map
+{
+    background-color: #00c5de !important;
+}
+
+
+.cb-color1  .log-form-box .form-control,
+.cb-color1  .log-form-box .btn:hover a,
+.cb-color1  .product-add-to-cart-box .insider .close-ico,
+.cb-color1  .pro-today-offer-box h3,
+.cb-color1  .register-body .icofont.icofont-eye ,
+.cb-color1  .register-body  legand ,
+.cb-color1  .quest-page-bottom h5 a ,
+.cb-color1  .help-box .close-ico  , 
+.cb-color1  .favourite-page .fav-itm-del .icofont ,
+.cb-color1  .cart-page .cart-itm-del .icofont ,
+.cb-color1  .cart-item-count .prod-count .icofont ,
+.cb-color1  .cart-page .cart-alert a ,
+.cb-color1  .shop-home-active-tab ,
+.cb-color1  .add-dicount-box h3 ,
+.cb-color1  .add-dicount-box .prod-count .icofont ,
+.cb-color1  .shop-notification-head li ,
+.cb-color1  .add-product-head li ,
+.cb-color1  .formfield .prod-count .icofont ,
+.cb-color1  .buy-prod-page .reg-field legand ,
+.cb-color1  .pay-type li ,
+.cb-color1  .moly-buyprod-serives label ,
+.cb-color1  .btn:hover a ,
+.cb-color1  .btn:active a ,
+.cb-color1  .btn:focus  a ,
+
+
+.cb-color1  .clothes-cateogrey a:hover ,
+.cb-color1  .Clothescarousel .owl-prev:hover , 
+.cb-color1  .Clothescarousel .owl-next:hover ,
+.cb-color1  .footer-sect-ul a:hover, 
+.cb-color1  .footer-min-sect a:hover  ,
+.cb-color1  .footer-sect-ul a:focus, 
+.cb-color1  .footer-min-sect a:focus ,
+.cb-color1  .footer-sect-ul a:active,
+.cb-color1  .footer-min-sect a:active ,
+.cb-color1  .offer-box-head .active ,
+.cb-color1  .offer-title ,
+.cb-color1  .NEW-PRODUCTS-HEAD .col.left-col ,
+.cb-color1  .clothes-cateogrey h3  a  ,
+.cb-color1  .footer-cont-ul .svg-inline--fa ,
+.cb-color1  .footer-social-ul li a ,
+.cb-color1  .pag-head-search-box .form-control  ,
+.cb-color1  .pag-head-search-box .icofont ,
+.cb-color1  .single-page-products  .current ,
+.cb-color1  .single-page-products .nice-select ul ,
+.cb-color1  .single-page-products .nice-select li ,
+.cb-color1  .single-page-products .bottom ul a.active ,
+.cb-color1  .search-page-results .nice-select ul ,
+.cb-color1  .search-page-results  .current ,
+.cb-color1  .search-page-results .nice-select li ,
+.cb-color1  .icon-back-insider ,
+.cb-color1  .product-add-to-cart-box .btn:hover,
+.cb-color1 .profile-body .info-box-bottom  .btn:hover 
+{
+    color: #00c5de !important;
+}
+
+
+.cb-color1  .bottom-header ul li a:hover ,
+.cb-color1  .top-header ul li:hover , 
+.cb-color1 .top-header ul li:hover a 
+{ color: #fbe817;}
+
+.cb-color1  .linear-line {    border-top: 1px solid #6578f4; }
+
+
+/*===================================================
+===============// SOFTYELLOW //======================
+===================================================*/
+.cb-color2 .product-description-body .prod-active-tab , 
+.cb-color2 .similar-products .head h3 ,
+.cb-color2 .product-add-to-cart-box .insider h3 ,
+.cb-color2 .shop-home-active-tab ,
+.cb-color2 .add-dicount-box h3 ,
+.cb-color2 .shop-notification-head li ,
+.cb-color2 .add-product-head li ,
+.cb-color2 .offer-box-head .active ,
+.cb-color2 .NEW-PRODUCTS-HEAD .npro-active ,
+.cb-color2 .brand-head h3 ,
+.cb-color2 .single-page-slider-box .head h3 ,
+.cb-color2 .single-page-brands .head h3 
+{ border-bottom: 1px solid#e2b056 !important;}
+
+.cb-color2  .product-description-body .prod-active-tab::before  ,
+.cb-color2  .register-body .register-form-box h3::before ,
+.cb-color2  .shop-home-active-tab::before ,
+.cb-color2  .shop-notification-head li::before ,
+.cb-color2  .add-product-head li:before ,
+.cb-color2  .buy-prod-page .buy-page-box h3::before ,
+.cb-color2  .offer-box-head .active::before  ,
+.cb-color2  .NEW-PRODUCTS-HEAD .npro-active::before  ,
+.cb-color2  .single-page-slider-box .head h3::before ,
+.cb-color2  .single-page-brands .head h3::before  ,
+.cb-color2 .buy-page-requestproducts h3::before ,
+.cb-color2  .log-form-box h3::before 
+{ border-top: 8px solid#e2b056 !important;}
+
+.cb-color2  .product-add-to-cart-box  .active-choose  { border-color: #02c5de !important; }
+
+.cb-color2  .prob-choosed ,
+.cb-color2  .btn:hover , 
+.cb-color2  .btn:active , 
+.cb-color2  .btn:focus ,
+.cb-color2  .single-page-products .bottom ul a:hover,
+.cb-color2  .single-page-products .bottom ul a:active,
+.cb-color2  .single-page-products .bottom ul a:focus ,
+.cb-color2  .btn-info ,
+.cb-color2  .home-slider-item-details .btn ,
+.cb-color2  .all-offer-btn-box .btn  ,
+.cb-color2  .TODAY-OFFER-side .box ,
+.cb-color2  .add-box .btn  ,
+.cb-color2  .single-page-products .bottom ul a.active 
+{ border:1px solid#e2b056 !important;} 
+
+
+.cb-color2  .single-page-products .nice-select::after ,
+.cb-color2  .search-page-results .nice-select::after
+{
+    border-bottom: 2px solid#e2b056;
+    border-right: 2px solid#e2b056;
+}
+
+.cb-color2  .return-body h2::before ,
+.cb-color2  .about-header h4::before 
+{   border-top: 10px solid#e2b056; }
+
+
+.cb-color2  .right-box h3 ,
+.cb-color2  .prod-page-today-offer .discount ,
+.cb-color2  .main-header ,
+.cb-color2  .offer-discount  ,
+.cb-color2  .our-advantages .adv-box .icon-back
+{ background: linear-gradient(to right ,  #8f7f3d, #e2b056 ); }
+
+.bgcolor2,
+.cb-color2  .log-form-box .btn,
+.cb-color2  .checkmark,
+.cb-color2  .my-option:hover input ~ .checkmark ,
+.cb-color2  .my-option .checkmark::before,
+.cb-color2  .my-option .checkmark::before,
+.cb-color2  .center-box .valdate-bar-ul .bg-info,
+.cb-color2  .product-add-to-cart-box .prod-count span ,
+.cb-color2  .pro-today-offer-box .progress .bg-info,
+.cb-color2  .blue-h4 h4,
+.cb-color2  .shop-home-item-btns p,
+.cb-color2  .finished-order .btn ,
+.cb-color2  .finished-order .btn:hover ,
+.cb-color2  .single-page-products .bottom ul a:hover,
+.cb-color2  .single-page-products .bottom ul a:active,
+.cb-color2  .single-page-products .bottom ul a:focus ,
+.cb-color2  .btn-info ,
+.cb-color2  .header-icon-box a ,
+.cb-color2  .search-icon ,
+.cb-color2  .dropdown.first-itm ,
+.cb-color2  .Homecarousel .owl-dot ,
+.cb-color2  .home-slider-item-details .btn ,
+.cb-color2  .all-offer-btn-box .btn ,
+.cb-color2  .add-box .btn  ,
+.cb-color2  .footer-head ul ,
+.cb-color2  .pagination-next-btn ,
+.cb-color2 .pro-cart-icon .fa-shopping-cart ,
+.cb-color2  .brach-map ,
+.cb-color2  .color_panel  p ,
+.cb-color2  .brach-map
+{
+    background-color:#e2b056 !important;
+}
+
+
+.cb-color2  .log-form-box .form-control,
+.cb-color2  .log-form-box .btn:hover a,
+.cb-color2  .product-add-to-cart-box .insider .close-ico,
+.cb-color2  .pro-today-offer-box h3,
+.cb-color2  .register-body .icofont.icofont-eye ,
+.cb-color2  .register-body  legand ,
+.cb-color2  .quest-page-bottom h5 a ,
+.cb-color2  .help-box .close-ico  , 
+.cb-color2  .favourite-page .fav-itm-del .icofont ,
+.cb-color2  .cart-page .cart-itm-del .icofont ,
+.cb-color2  .cart-item-count .prod-count .icofont ,
+.cb-color2  .cart-page .cart-alert a ,
+.cb-color2  .shop-home-active-tab ,
+.cb-color2  .add-dicount-box h3 ,
+.cb-color2  .add-dicount-box .prod-count .icofont ,
+.cb-color2  .shop-notification-head li ,
+.cb-color2  .add-product-head li ,
+.cb-color2  .formfield .prod-count .icofont ,
+.cb-color2  .buy-prod-page .reg-field legand ,
+.cb-color2  .pay-type li ,
+.cb-color2  .moly-buyprod-serives label ,
+.cb-color2  .btn:hover a ,
+.cb-color2  .btn:active a ,
+.cb-color2  .btn:focus  a ,
+
+
+.cb-color2  .clothes-cateogrey a:hover ,
+.cb-color2  .Clothescarousel .owl-prev:hover , 
+.cb-color2  .Clothescarousel .owl-next:hover ,
+.cb-color2  .footer-sect-ul a:hover, 
+.cb-color2  .footer-min-sect a:hover  ,
+.cb-color2  .footer-sect-ul a:focus, 
+.cb-color2  .footer-min-sect a:focus ,
+.cb-color2  .footer-sect-ul a:active,
+.cb-color2  .footer-min-sect a:active ,
+.cb-color2  .offer-box-head .active ,
+.cb-color2  .offer-title ,
+.cb-color2  .NEW-PRODUCTS-HEAD .col.left-col ,
+.cb-color2  .clothes-cateogrey h3  a  ,
+.cb-color2  .footer-cont-ul .svg-inline--fa ,
+.cb-color2  .footer-social-ul li a ,
+.cb-color2  .pag-head-search-box .form-control  ,
+.cb-color2  .pag-head-search-box .icofont ,
+.cb-color2  .single-page-products  .current ,
+.cb-color2  .single-page-products .nice-select ul ,
+.cb-color2  .single-page-products .nice-select li ,
+.cb-color2  .single-page-products .bottom ul a.active ,
+.cb-color2  .search-page-results .nice-select ul ,
+.cb-color2  .search-page-results  .current ,
+.cb-color2  .search-page-results .nice-select li ,
+.cb-color2  .icon-back-insider,
+.cb-color2 .product-add-to-cart-box .btn:hover,
+.cb-color2 .profile-body .info-box-bottom  .btn:hover 
+{
+    color:#e2b056 !important;
+}
+
+
+.cb-color2  .bottom-header ul li a:hover ,
+.cb-color2  .top-header ul li:hover , 
+.cb-color2 .top-header ul li:hover a 
+{ color: #665107;}
+
+.cb-color2  .linear-line {    border-top: 1px solid #bd9714;}
+
+
+
+/*===================================================
+===============// PURPLE HEART //====================
+===================================================*/
+.cb-color3 .product-description-body .prod-active-tab , 
+.cb-color3 .similar-products .head h3 ,
+.cb-color3 .product-add-to-cart-box .insider h3 ,
+.cb-color3 .shop-home-active-tab ,
+.cb-color3 .add-dicount-box h3 ,
+.cb-color3 .shop-notification-head li ,
+.cb-color3 .add-product-head li ,
+.cb-color3 .offer-box-head .active ,
+.cb-color3 .NEW-PRODUCTS-HEAD .npro-active ,
+.cb-color3 .brand-head h3 ,
+.cb-color3 .single-page-slider-box .head h3 ,
+.cb-color3 .single-page-brands .head h3 
+{ border-bottom: 1px solid #602cbe !important;}
+
+.cb-color3  .product-description-body .prod-active-tab::before  ,
+.cb-color3  .register-body .register-form-box h3::before ,
+.cb-color3  .shop-home-active-tab::before ,
+.cb-color3  .shop-notification-head li::before ,
+.cb-color3  .add-product-head li:before ,
+.cb-color3  .buy-prod-page .buy-page-box h3::before ,
+.cb-color3  .offer-box-head .active::before  ,
+.cb-color3  .NEW-PRODUCTS-HEAD .npro-active::before  ,
+.cb-color3  .single-page-slider-box .head h3::before ,
+.cb-color3  .single-page-brands .head h3::before  ,
+.cb-color3 .buy-page-requestproducts h3::before ,
+.cb-color3  .log-form-box h3::before 
+{ border-top: 8px solid #602cbe !important;}
+
+.cb-color3  .product-add-to-cart-box  .active-choose  { border-color: #602cbe !important; }
+
+.cb-color3  .prob-choosed ,
+.cb-color3  .btn:hover , 
+.cb-color3  .btn:active , 
+.cb-color3  .btn:focus ,
+.cb-color3  .single-page-products .bottom ul a:hover,
+.cb-color3  .single-page-products .bottom ul a:active,
+.cb-color3  .single-page-products .bottom ul a:focus ,
+.cb-color3  .btn-info ,
+.cb-color3  .home-slider-item-details .btn ,
+.cb-color3  .all-offer-btn-box .btn  ,
+.cb-color3  .TODAY-OFFER-side .box ,
+.cb-color3  .add-box .btn  ,
+.cb-color3  .single-page-products .bottom ul a.active 
+{ border:1px solid #602cbe !important;} 
+
+
+.cb-color3  .single-page-products .nice-select::after ,
+.cb-color3  .search-page-results .nice-select::after
+{
+    border-bottom: 2px solid #602cbe;
+    border-right: 2px solid #602cbe;
+}
+
+.cb-color3  .return-body h2::before ,
+.cb-color3  .about-header h4::before 
+{   border-top: 10px solid #602cbe; }
+
+
+.cb-color3  .right-box h3 ,
+.cb-color3  .prod-page-today-offer .discount ,
+.cb-color3  .main-header ,
+.cb-color3  .offer-discount  ,
+.cb-color3  .our-advantages .adv-box .icon-back
+{ background: linear-gradient(to right , #443f74, #602cbe ); }
+
+.bgcolor3,
+.cb-color3  .log-form-box .btn,
+.cb-color3  .checkmark,
+.cb-color3  .my-option:hover input ~ .checkmark ,
+.cb-color3  .my-option .checkmark::before,
+.cb-color3  .my-option .checkmark::before,
+.cb-color3  .center-box .valdate-bar-ul .bg-info,
+.cb-color3  .product-add-to-cart-box .prod-count span ,
+.cb-color3  .pro-today-offer-box .progress .bg-info,
+.cb-color3  .blue-h4 h4,
+.cb-color3  .shop-home-item-btns p,
+.cb-color3  .finished-order .btn ,
+.cb-color3  .finished-order .btn:hover ,
+.cb-color3  .single-page-products .bottom ul a:hover,
+.cb-color3  .single-page-products .bottom ul a:active,
+.cb-color3  .single-page-products .bottom ul a:focus ,
+.cb-color3  .btn-info ,
+.cb-color3  .header-icon-box a ,
+.cb-color3  .search-icon ,
+.cb-color3  .dropdown.first-itm ,
+.cb-color3  .Homecarousel .owl-dot ,
+.cb-color3  .home-slider-item-details .btn ,
+.cb-color3  .all-offer-btn-box .btn ,
+.cb-color3  .add-box .btn  ,
+.cb-color3  .footer-head ul ,
+.cb-color3  .pagination-next-btn ,
+.cb-color3  .brach-map ,
+.cb-color3  .color_panel  p ,
+.cb-color3  .pro-cart-icon .fa-shopping-cart ,
+.cb-color3  .brach-map
+{
+    background-color: #602cbe !important;
+}
+
+
+.cb-color3  .log-form-box .form-control,
+.cb-color3  .log-form-box .btn:hover a,
+.cb-color3  .product-add-to-cart-box .insider .close-ico,
+.cb-color3  .pro-today-offer-box h3,
+.cb-color3  .register-body .icofont.icofont-eye ,
+.cb-color3  .register-body  legand ,
+.cb-color3  .quest-page-bottom h5 a ,
+.cb-color3  .help-box .close-ico  , 
+.cb-color3  .favourite-page .fav-itm-del .icofont ,
+.cb-color3  .cart-page .cart-itm-del .icofont ,
+.cb-color3  .cart-item-count .prod-count .icofont ,
+.cb-color3  .cart-page .cart-alert a ,
+.cb-color3  .shop-home-active-tab ,
+.cb-color3  .add-dicount-box h3 ,
+.cb-color3  .add-dicount-box .prod-count .icofont ,
+.cb-color3  .shop-notification-head li ,
+.cb-color3  .add-product-head li ,
+.cb-color3  .formfield .prod-count .icofont ,
+.cb-color3  .buy-prod-page .reg-field legand ,
+.cb-color3  .pay-type li ,
+.cb-color3  .moly-buyprod-serives label ,
+.cb-color3  .btn:hover a ,
+.cb-color3  .btn:active a ,
+.cb-color3  .btn:focus  a ,
+
+
+.cb-color3  .clothes-cateogrey a:hover ,
+.cb-color3  .Clothescarousel .owl-prev:hover , 
+.cb-color3  .Clothescarousel .owl-next:hover ,
+.cb-color3  .footer-sect-ul a:hover, 
+.cb-color3  .footer-min-sect a:hover  ,
+.cb-color3  .footer-sect-ul a:focus, 
+.cb-color3  .footer-min-sect a:focus ,
+.cb-color3  .footer-sect-ul a:active,
+.cb-color3  .footer-min-sect a:active ,
+.cb-color3  .offer-box-head .active ,
+.cb-color3  .offer-title ,
+.cb-color3  .NEW-PRODUCTS-HEAD .col.left-col ,
+.cb-color3  .clothes-cateogrey h3  a  ,
+.cb-color3  .footer-cont-ul .svg-inline--fa ,
+.cb-color3  .footer-social-ul li a ,
+.cb-color3  .pag-head-search-box .form-control  ,
+.cb-color3  .pag-head-search-box .icofont ,
+.cb-color3  .single-page-products  .current ,
+.cb-color3  .single-page-products .nice-select ul ,
+.cb-color3  .single-page-products .nice-select li ,
+.cb-color3  .single-page-products .bottom ul a.active ,
+.cb-color3  .search-page-results .nice-select ul ,
+.cb-color3  .search-page-results  .current ,
+.cb-color3  .search-page-results .nice-select li ,
+.cb-color3  .icon-back-insider,
+.cb-color3 .product-add-to-cart-box .btn:hover,
+.cb-color3 .profile-body .info-box-bottom  .btn:hover 
+{
+    color: #602cbe !important;
+}
+
+
+.cb-color3  .bottom-header ul li a:hover ,
+.cb-color3  .top-header ul li:hover , 
+.cb-color3 .top-header ul li:hover a 
+{ color: #fbe817;}
+
+.cb-color3  .linear-line {    border-top: 1px solid #6578f4; }
+
+
+
+/*===================================================
+=================// CORAL RED  //====================
+===================================================*/
+.cb-color4 .product-description-body .prod-active-tab , 
+.cb-color4 .similar-products .head h3 ,
+.cb-color4 .product-add-to-cart-box .insider h3 ,
+.cb-color4 .shop-home-active-tab ,
+.cb-color4 .add-dicount-box h3 ,
+.cb-color4 .shop-notification-head li ,
+.cb-color4 .add-product-head li ,
+.cb-color4 .offer-box-head .active ,
+.cb-color4 .NEW-PRODUCTS-HEAD .npro-active ,
+.cb-color4 .brand-head h3 ,
+.cb-color4 .single-page-slider-box .head h3 ,
+.cb-color4 .single-page-brands .head h3 
+{ border-bottom: 1px solid  #ff4242 !important;}
+
+.cb-color4  .product-description-body .prod-active-tab::before  ,
+.cb-color4  .register-body .register-form-box h3::before ,
+.cb-color4  .shop-home-active-tab::before ,
+.cb-color4  .shop-notification-head li::before ,
+.cb-color4  .add-product-head li:before ,
+.cb-color4  .buy-prod-page .buy-page-box h3::before ,
+.cb-color4  .offer-box-head .active::before  ,
+.cb-color4  .NEW-PRODUCTS-HEAD .npro-active::before  ,
+.cb-color4  .single-page-slider-box .head h3::before ,
+.cb-color4  .single-page-brands .head h3::before  ,
+.cb-color4 .buy-page-requestproducts h3::before ,
+.cb-color4  .log-form-box h3::before 
+{ border-top: 8px solid  #ff4242 !important;}
+
+.cb-color4  .product-add-to-cart-box  .active-choose  { border-color:  #ff4242 !important; }
+
+.cb-color4  .prob-choosed ,
+.cb-color4  .btn:hover , 
+.cb-color4  .btn:active , 
+.cb-color4  .btn:focus ,
+.cb-color4  .single-page-products .bottom ul a:hover,
+.cb-color4  .single-page-products .bottom ul a:active,
+.cb-color4  .single-page-products .bottom ul a:focus ,
+.cb-color4  .btn-info ,
+.cb-color4  .home-slider-item-details .btn ,
+.cb-color4  .all-offer-btn-box .btn  ,
+.cb-color4  .TODAY-OFFER-side .box ,
+.cb-color4  .add-box .btn  ,
+.cb-color4  .single-page-products .bottom ul a.active 
+{ border:1px solid  #ff4242 !important;} 
+
+
+.cb-color4  .single-page-products .nice-select::after ,
+.cb-color4  .search-page-results .nice-select::after
+{
+    border-bottom: 2px solid  #ff4242;
+    border-right: 2px solid  #ff4242;
+}
+
+.cb-color4  .return-body h2::before ,
+.cb-color4  .about-header h4::before 
+{   border-top: 10px solid  #ff4242; }
+
+
+.cb-color4  .right-box h3 ,
+.cb-color4  .prod-page-today-offer .discount ,
+.cb-color4  .main-header ,
+.cb-color4  .offer-discount  ,
+.cb-color4  .our-advantages .adv-box .icon-back
+{ background: linear-gradient(to right , #74190e,  #ff4242 ); }
+
+.bgcolor4,
+.cb-color4  .log-form-box .btn,
+.cb-color4  .checkmark,
+.cb-color4  .my-option:hover input ~ .checkmark ,
+.cb-color4  .my-option .checkmark::before,
+.cb-color4  .my-option .checkmark::before,
+.cb-color4  .center-box .valdate-bar-ul .bg-info,
+.cb-color4  .product-add-to-cart-box .prod-count span ,
+.cb-color4  .pro-today-offer-box .progress .bg-info,
+.cb-color4  .blue-h4 h4,
+.cb-color4  .shop-home-item-btns p,
+.cb-color4  .finished-order .btn ,
+.cb-color4  .finished-order .btn:hover ,
+.cb-color4  .single-page-products .bottom ul a:hover,
+.cb-color4  .single-page-products .bottom ul a:active,
+.cb-color4  .single-page-products .bottom ul a:focus ,
+.cb-color4  .btn-info ,
+.cb-color4  .header-icon-box a ,
+.cb-color4  .search-icon ,
+.cb-color4  .dropdown.first-itm ,
+.cb-color4  .Homecarousel .owl-dot ,
+.cb-color4  .home-slider-item-details .btn ,
+
+.cb-color4  .all-offer-btn-box .btn ,
+.cb-color4  .add-box .btn  ,
+.cb-color4  .footer-head ul ,
+.cb-color4  .pagination-next-btn ,
+.cb-color4  .brach-map,
+.cb-color4  .color_panel  p ,
+.cb-color4 .pro-cart-icon .fa-shopping-cart ,
+.cb-color4  .brach-map
+{
+    background-color:  #ff4242 !important;
+}
+
+
+.cb-color4  .log-form-box .form-control,
+.cb-color4  .log-form-box .btn:hover a,
+.cb-color4  .product-add-to-cart-box .insider .close-ico,
+.cb-color4  .pro-today-offer-box h3,
+.cb-color4  .register-body .icofont.icofont-eye ,
+.cb-color4  .register-body  legand ,
+.cb-color4  .quest-page-bottom h5 a ,
+.cb-color4  .help-box .close-ico  , 
+.cb-color4  .favourite-page .fav-itm-del .icofont ,
+.cb-color4  .cart-page .cart-itm-del .icofont ,
+.cb-color4  .cart-item-count .prod-count .icofont ,
+.cb-color4  .cart-page .cart-alert a ,
+.cb-color4  .shop-home-active-tab ,
+.cb-color4  .add-dicount-box h3 ,
+.cb-color4  .add-dicount-box .prod-count .icofont ,
+.cb-color4  .shop-notification-head li ,
+.cb-color4  .add-product-head li ,
+.cb-color4  .formfield .prod-count .icofont ,
+.cb-color4  .buy-prod-page .reg-field legand ,
+.cb-color4  .pay-type li ,
+.cb-color4  .moly-buyprod-serives label ,
+.cb-color4  .btn:hover a ,
+.cb-color4  .btn:active a ,
+.cb-color4  .btn:focus  a ,
+
+
+.cb-color4  .clothes-cateogrey a:hover ,
+.cb-color4  .Clothescarousel .owl-prev:hover , 
+.cb-color4  .Clothescarousel .owl-next:hover ,
+.cb-color4  .footer-sect-ul a:hover, 
+.cb-color4  .footer-min-sect a:hover  ,
+.cb-color4  .footer-sect-ul a:focus, 
+.cb-color4  .footer-min-sect a:focus ,
+.cb-color4  .footer-sect-ul a:active,
+.cb-color4  .footer-min-sect a:active ,
+.cb-color4  .offer-box-head .active ,
+.cb-color4  .offer-title ,
+.cb-color4  .NEW-PRODUCTS-HEAD .col.left-col ,
+.cb-color4  .clothes-cateogrey h3  a  ,
+.cb-color4  .footer-cont-ul .svg-inline--fa ,
+.cb-color4  .footer-social-ul li a ,
+.cb-color4  .pag-head-search-box .form-control  ,
+.cb-color4  .pag-head-search-box .icofont ,
+.cb-color4  .single-page-products  .current ,
+.cb-color4  .single-page-products .nice-select ul ,
+.cb-color4  .single-page-products .nice-select li ,
+.cb-color4  .single-page-products .bottom ul a.active ,
+.cb-color4  .search-page-results .nice-select ul ,
+.cb-color4  .search-page-results  .current ,
+.cb-color4  .search-page-results .nice-select li ,
+.cb-color4  .icon-back-insider,
+.cb-color4 .product-add-to-cart-box .btn:hover,
+.cb-color4 .profile-body .info-box-bottom  .btn:hover 
+{
+    color: #ff4242 !important;
+}
+
+
+.cb-color4  .bottom-header ul li a:hover ,
+.cb-color4  .top-header ul li:hover , 
+.cb-color4 .top-header ul li:hover a 
+{ color: #ff4242;}
+
+.cb-color4  .linear-line {    border-top: 1px solid #ff4242; }
+
+
+
+/*===================================================
+=================// purble  //====================
+===================================================*/
+.cb-color5 .product-description-body .prod-active-tab , 
+.cb-color5 .similar-products .head h3 ,
+.cb-color5 .product-add-to-cart-box .insider h3 ,
+.cb-color5 .shop-home-active-tab ,
+.cb-color5 .add-dicount-box h3 ,
+.cb-color5 .shop-notification-head li ,
+.cb-color5 .add-product-head li ,
+.cb-color5 .offer-box-head .active ,
+.cb-color5 .NEW-PRODUCTS-HEAD .npro-active ,
+.cb-color5 .brand-head h3 ,
+.cb-color5 .single-page-slider-box .head h3 ,
+.cb-color5 .single-page-brands .head h3 
+{ border-bottom: 1px solid  #FE2EC8 !important;}
+
+.cb-color5  .product-description-body .prod-active-tab::before  ,
+.cb-color5  .register-body .register-form-box h3::before ,
+.cb-color5  .shop-home-active-tab::before ,
+.cb-color5  .shop-notification-head li::before ,
+.cb-color5  .add-product-head li:before ,
+.cb-color5  .buy-prod-page .buy-page-box h3::before ,
+.cb-color5  .offer-box-head .active::before  ,
+.cb-color5  .NEW-PRODUCTS-HEAD .npro-active::before  ,
+.cb-color5  .single-page-slider-box .head h3::before ,
+.cb-color5  .single-page-brands .head h3::before  ,
+.cb-color5 .buy-page-requestproducts h3::before ,
+.cb-color5  .log-form-box h3::before 
+{ border-top: 8px solid  #FE2EC8 !important;}
+
+.cb-color5  .product-add-to-cart-box  .active-choose  { border-color:  #FE2EC8 !important; }
+
+.cb-color5  .prob-choosed ,
+.cb-color5  .btn:hover , 
+.cb-color5  .btn:active , 
+.cb-color5  .btn:focus ,
+.cb-color5  .single-page-products .bottom ul a:hover,
+.cb-color5  .single-page-products .bottom ul a:active,
+.cb-color5  .single-page-products .bottom ul a:focus ,
+.cb-color5  .btn-info ,
+.cb-color5  .home-slider-item-details .btn ,
+.cb-color5  .all-offer-btn-box .btn  ,
+.cb-color5  .TODAY-OFFER-side .box ,
+.cb-color5  .add-box .btn  ,
+.cb-color5  .single-page-products .bottom ul a.active 
+{ border:1px solid  #FE2EC8 !important;} 
+
+
+.cb-color5  .single-page-products .nice-select::after ,
+.cb-color5  .search-page-results .nice-select::after
+{
+    border-bottom: 2px solid  #FE2EC8;
+    border-right: 2px solid  #FE2EC8;
+}
+
+.cb-color5  .return-body h2::before ,
+.cb-color5  .about-header h4::before 
+{   border-top: 10px solid  #FE2EC8; }
+
+
+.cb-color5  .right-box h3 ,
+.cb-color5  .prod-page-today-offer .discount ,
+.cb-color5  .main-header ,
+.cb-color5  .offer-discount  ,
+.cb-color5  .our-advantages .adv-box .icon-back
+{ background: linear-gradient(to right , #300344 ,  #FE2EC8 ); }
+
+.bgcolor5,
+.cb-color5  .log-form-box .btn,
+.cb-color5  .checkmark,
+.cb-color5  .my-option:hover input ~ .checkmark ,
+.cb-color5  .my-option .checkmark::before,
+.cb-color5  .my-option .checkmark::before,
+.cb-color5  .center-box .valdate-bar-ul .bg-info,
+.cb-color5  .product-add-to-cart-box .prod-count span ,
+.cb-color5  .pro-today-offer-box .progress .bg-info,
+.cb-color5  .blue-h4 h4,
+.cb-color5  .shop-home-item-btns p,
+.cb-color5  .finished-order .btn ,
+.cb-color5  .finished-order .btn:hover ,
+.cb-color5  .single-page-products .bottom ul a:hover,
+.cb-color5  .single-page-products .bottom ul a:active,
+.cb-color5  .single-page-products .bottom ul a:focus ,
+.cb-color5  .btn-info ,
+.cb-color5  .header-icon-box a ,
+.cb-color5  .search-icon ,
+.cb-color5  .dropdown.first-itm ,
+.cb-color5  .Homecarousel .owl-dot ,
+.cb-color5  .home-slider-item-details .btn ,
+
+.cb-color5  .all-offer-btn-box .btn ,
+.cb-color5  .add-box .btn  ,
+.cb-color5  .footer-head ul ,
+.cb-color5  .pagination-next-btn ,
+.cb-color5  .brach-map,
+.cb-color5  .color_panel  p ,
+.cb-color5  .pro-cart-icon .fa-shopping-cart ,
+.cb-color5  .brach-map
+{
+    background-color:  #FE2EC8 !important;
+}
+
+
+.cb-color5  .log-form-box .form-control,
+.cb-color5  .log-form-box .btn:hover a,
+.cb-color5  .product-add-to-cart-box .insider .close-ico,
+.cb-color5  .pro-today-offer-box h3,
+.cb-color5  .register-body .icofont.icofont-eye ,
+.cb-color5  .register-body  legand ,
+.cb-color5  .quest-page-bottom h5 a ,
+.cb-color5  .help-box .close-ico  , 
+.cb-color5  .favourite-page .fav-itm-del .icofont ,
+.cb-color5  .cart-page .cart-itm-del .icofont ,
+.cb-color5  .cart-item-count .prod-count .icofont ,
+.cb-color5  .cart-page .cart-alert a ,
+.cb-color5  .shop-home-active-tab ,
+.cb-color5  .add-dicount-box h3 ,
+.cb-color5  .add-dicount-box .prod-count .icofont ,
+.cb-color5  .shop-notification-head li ,
+.cb-color5  .add-product-head li ,
+.cb-color5  .formfield .prod-count .icofont ,
+.cb-color5  .buy-prod-page .reg-field legand ,
+.cb-color5  .pay-type li ,
+.cb-color5  .moly-buyprod-serives label ,
+.cb-color5  .btn:hover a ,
+.cb-color5  .btn:active a ,
+.cb-color5  .btn:focus  a ,
+
+
+.cb-color5  .clothes-cateogrey a:hover ,
+.cb-color5  .Clothescarousel .owl-prev:hover , 
+.cb-color5  .Clothescarousel .owl-next:hover ,
+.cb-color5  .footer-sect-ul a:hover, 
+.cb-color5  .footer-min-sect a:hover  ,
+.cb-color5  .footer-sect-ul a:focus, 
+.cb-color5  .footer-min-sect a:focus ,
+.cb-color5  .footer-sect-ul a:active,
+.cb-color5  .footer-min-sect a:active ,
+.cb-color5  .offer-box-head .active ,
+.cb-color5  .offer-title ,
+.cb-color5  .NEW-PRODUCTS-HEAD .col.left-col ,
+.cb-color5  .clothes-cateogrey h3  a  ,
+.cb-color5  .footer-cont-ul .svg-inline--fa ,
+.cb-color5  .footer-social-ul li a ,
+.cb-color5  .pag-head-search-box .form-control  ,
+.cb-color5  .pag-head-search-box .icofont ,
+.cb-color5  .single-page-products  .current ,
+.cb-color5  .single-page-products .nice-select ul ,
+.cb-color5  .single-page-products .nice-select li ,
+.cb-color5  .single-page-products .bottom ul a.active ,
+.cb-color5  .search-page-results .nice-select ul ,
+.cb-color5  .search-page-results  .current ,
+.cb-color5  .search-page-results .nice-select li ,
+.cb-color5  .icon-back-insider,
+.cb-color5 .product-add-to-cart-box .btn:hover,
+.cb-color5 .profile-body .info-box-bottom  .btn:hover 
+{
+    color: #FE2EC8 !important;
+}
+
+
+.cb-color5  .bottom-header ul li a:hover ,
+.cb-color5  .top-header ul li:hover , 
+.cb-color5 .top-header ul li:hover a 
+{ color: #650B34;}
+
+.cb-color5  .linear-line {    border-top: 1px solid #FE2EC8; }
+
+
+/*===================================================
+=================// Gray   //====================
+===================================================*/
+.cb-color6 .product-description-body .prod-active-tab , 
+.cb-color6 .similar-products .head h3 ,
+.cb-color6 .product-add-to-cart-box .insider h3 ,
+.cb-color6 .shop-home-active-tab ,
+.cb-color6 .add-dicount-box h3 ,
+.cb-color6 .shop-notification-head li ,
+.cb-color6 .add-product-head li ,
+.cb-color6 .offer-box-head .active ,
+.cb-color6 .NEW-PRODUCTS-HEAD .npro-active ,
+.cb-color6 .brand-head h3 ,
+.cb-color6 .single-page-slider-box .head h3 ,
+.cb-color6 .single-page-brands .head h3 
+{ border-bottom: 1px solid  #585858 !important;}
+
+.cb-color6 .product-description-body .prod-active-tab::before  ,
+.cb-color6 .register-body .register-form-box h3::before ,
+.cb-color6 .shop-home-active-tab::before ,
+.cb-color6 .shop-notification-head li::before ,
+.cb-color6 .add-product-head li:before ,
+.cb-color6 .buy-prod-page .buy-page-box h3::before ,
+.cb-color6 .offer-box-head .active::before  ,
+.cb-color6 .NEW-PRODUCTS-HEAD .npro-active::before  ,
+.cb-color6 .single-page-slider-box .head h3::before ,
+.cb-color6 .single-page-brands .head h3::before  ,
+.cb-color6 .buy-page-requestproducts h3::before ,
+.cb-color6 .log-form-box h3::before 
+{ border-top: 8px solid  #585858 !important;}
+
+.cb-color6 .product-add-to-cart-box  .active-choose  { border-color:  #585858 !important; }
+
+.cb-color6 .prob-choosed ,
+.cb-color6 .btn:hover , 
+.cb-color6 .btn:active , 
+.cb-color6 .btn:focus ,
+.cb-color6 .single-page-products .bottom ul a:hover,
+.cb-color6 .single-page-products .bottom ul a:active,
+.cb-color6 .single-page-products .bottom ul a:focus ,
+.cb-color6 .btn-info ,
+.cb-color6 .home-slider-item-details .btn ,
+.cb-color6 .all-offer-btn-box .btn  ,
+.cb-color6 .TODAY-OFFER-side .box ,
+.cb-color6 .add-box .btn  ,
+.cb-color6 .single-page-products .bottom ul a.active 
+{ border:1px solid  #585858 !important;} 
+
+
+.cb-color6 .single-page-products .nice-select::after ,
+.cb-color6 .search-page-results .nice-select::after
+{
+    border-bottom: 2px solid  #585858;
+    border-right: 2px solid  #585858;
+}
+
+.cb-color6 .return-body h2::before ,
+.cb-color6 .about-header h4::before 
+{   border-top: 10px solid  #585858; }
+
+
+.cb-color6 .right-box h3 ,
+.cb-color6 .prod-page-today-offer .discount ,
+.cb-color6 .main-header ,
+.cb-color6 .offer-discount  ,
+.cb-color6 .our-advantages .adv-box .icon-back
+{ background: linear-gradient(to right , #2d2c36,  #585858 ); }
+
+.bgcolor6,
+.cb-color6 .log-form-box .btn,
+.cb-color6 .checkmark,
+.cb-color6 .my-option:hover input ~ .checkmark ,
+.cb-color6 .my-option .checkmark::before,
+.cb-color6 .my-option .checkmark::before,
+.cb-color6 .center-box .valdate-bar-ul .bg-info,
+.cb-color6 .product-add-to-cart-box .prod-count span ,
+.cb-color6 .pro-today-offer-box .progress .bg-info,
+.cb-color6 .blue-h4 h4,
+.cb-color6 .shop-home-item-btns p,
+.cb-color6 .finished-order .btn ,
+.cb-color6 .finished-order .btn:hover ,
+.cb-color6 .single-page-products .bottom ul a:hover,
+.cb-color6 .single-page-products .bottom ul a:active,
+.cb-color6 .single-page-products .bottom ul a:focus ,
+.cb-color6 .btn-info ,
+.cb-color6 .header-icon-box a ,
+.cb-color6 .search-icon ,
+.cb-color6 .dropdown.first-itm ,
+.cb-color6 .Homecarousel .owl-dot ,
+.cb-color6 .home-slider-item-details .btn ,
+
+.cb-color6 .all-offer-btn-box .btn ,
+.cb-color6 .add-box .btn  ,
+.cb-color6 .footer-head ul ,
+.cb-color6 .pagination-next-btn ,
+.cb-color6 .brach-map,
+.cb-color6  .color_panel  p,
+.cb-color6  .pro-cart-icon .fa-shopping-cart ,
+.cb-color6  .brach-map
+{ 
+    background-color:  #585858 !important;
+}
+
+
+.cb-color6 .log-form-box .form-control,
+.cb-color6 .log-form-box .btn:hover a,
+.cb-color6 .product-add-to-cart-box .insider .close-ico,
+.cb-color6 .pro-today-offer-box h3,
+.cb-color6 .register-body .icofont.icofont-eye ,
+.cb-color6 .register-body  legand ,
+.cb-color6 .quest-page-bottom h5 a ,
+.cb-color6 .help-box .close-ico  , 
+.cb-color6 .favourite-page .fav-itm-del .icofont ,
+.cb-color6 .cart-page .cart-itm-del .icofont ,
+.cb-color6 .cart-item-count .prod-count .icofont ,
+.cb-color6 .cart-page .cart-alert a ,
+.cb-color6 .shop-home-active-tab ,
+.cb-color6 .add-dicount-box h3 ,
+.cb-color6 .add-dicount-box .prod-count .icofont ,
+.cb-color6 .shop-notification-head li ,
+.cb-color6 .add-product-head li ,
+.cb-color6 .formfield .prod-count .icofont ,
+.cb-color6 .buy-prod-page .reg-field legand ,
+.cb-color6 .pay-type li ,
+.cb-color6 .moly-buyprod-serives label ,
+.cb-color6 .btn:hover a ,
+.cb-color6 .btn:active a ,
+.cb-color6 .btn:focus  a ,
+
+
+.cb-color6 .clothes-cateogrey a:hover ,
+.cb-color6 .Clothescarousel .owl-prev:hover , 
+.cb-color6 .Clothescarousel .owl-next:hover ,
+.cb-color6 .footer-sect-ul a:hover, 
+.cb-color6 .footer-min-sect a:hover  ,
+.cb-color6 .footer-sect-ul a:focus, 
+.cb-color6 .footer-min-sect a:focus ,
+.cb-color6 .footer-sect-ul a:active,
+.cb-color6 .footer-min-sect a:active ,
+.cb-color6 .offer-box-head .active ,
+.cb-color6 .offer-title ,
+.cb-color6 .NEW-PRODUCTS-HEAD .col.left-col ,
+.cb-color6 .clothes-cateogrey h3  a  ,
+.cb-color6 .footer-cont-ul .svg-inline--fa ,
+.cb-color6 .footer-social-ul li a ,
+.cb-color6 .pag-head-search-box .form-control  ,
+.cb-color6 .pag-head-search-box .icofont ,
+.cb-color6 .single-page-products  .current ,
+.cb-color6 .single-page-products .nice-select ul ,
+.cb-color6 .single-page-products .nice-select li ,
+.cb-color6 .single-page-products .bottom ul a.active ,
+.cb-color6 .search-page-results .nice-select ul ,
+.cb-color6 .search-page-results  .current ,
+.cb-color6 .search-page-results .nice-select li ,
+.cb-color6 .icon-back-insider,
+.cb-color6 .product-add-to-cart-box .btn:hover,
+.cb-color6 .profile-body .info-box-bottom  .btn:hover 
+{
+    color: #585858 !important;
+}
+
+
+.cb-color6 .bottom-header ul li a:hover ,
+.cb-color6 .top-header ul li:hover , 
+.cb-color6.top-header ul li:hover a 
+{ color: #e18686;}
+
+.cb-color6 .linear-line {    border-top: 1px solid #585858; }
+
+
+/*===================================================
+=================// Gray   //====================
+===================================================*/
+.cb-color7 .product-description-body .prod-active-tab , 
+.cb-color7 .similar-products .head h3 ,
+.cb-color7 .product-add-to-cart-box .insider h3 ,
+.cb-color7 .shop-home-active-tab ,
+.cb-color7 .add-dicount-box h3 ,
+.cb-color7 .shop-notification-head li ,
+.cb-color7 .add-product-head li ,
+.cb-color7 .offer-box-head .active ,
+.cb-color7 .NEW-PRODUCTS-HEAD .npro-active ,
+.cb-color7 .brand-head h3 ,
+.cb-color7 .single-page-slider-box .head h3 ,
+.cb-color7 .single-page-brands .head h3 
+{ border-bottom: 1px solid  #FFFF00  !important;}
+
+.cb-color7 .product-description-body .prod-active-tab::before  ,
+.cb-color7 .register-body .register-form-box h3::before ,
+.cb-color7 .shop-home-active-tab::before ,
+.cb-color7 .shop-notification-head li::before ,
+.cb-color7 .add-product-head li:before ,
+.cb-color7 .buy-prod-page .buy-page-box h3::before ,
+.cb-color7 .offer-box-head .active::before  ,
+.cb-color7 .NEW-PRODUCTS-HEAD .npro-active::before  ,
+.cb-color7 .single-page-slider-box .head h3::before ,
+.cb-color7 .single-page-brands .head h3::before  ,
+.cb-color7.buy-page-requestproducts h3::before ,
+.cb-color7 .log-form-box h3::before 
+{ border-top: 8px solid  #FFFF00  !important;}
+
+.cb-color7 .product-add-to-cart-box  .active-choose  { border-color:  #FFFF00  !important; }
+
+.cb-color7 .prob-choosed ,
+.cb-color7 .btn:hover , 
+.cb-color7 .btn:active , 
+.cb-color7 .btn:focus ,
+.cb-color7 .single-page-products .bottom ul a:hover,
+.cb-color7 .single-page-products .bottom ul a:active,
+.cb-color7 .single-page-products .bottom ul a:focus ,
+.cb-color7 .btn-info ,
+.cb-color7 .home-slider-item-details .btn ,
+.cb-color7 .all-offer-btn-box .btn  ,
+.cb-color7 .TODAY-OFFER-side .box ,
+.cb-color7 .add-box .btn  ,
+.cb-color7 .single-page-products .bottom ul a.active 
+{ border:1px solid  #FFFF00  !important;} 
+
+
+.cb-color7 .single-page-products .nice-select::after ,
+.cb-color7 .search-page-results .nice-select::after
+{
+    border-bottom: 2px solid  #FFFF00 ;
+    border-right: 2px solid  #FFFF00 ;
+}
+
+.cb-color7 .return-body h2::before ,
+.cb-color7 .about-header h4::before 
+{   border-top: 10px solid  #FFFF00 ; }
+
+
+.cb-color7 .right-box h3 ,
+.cb-color7 .prod-page-today-offer .discount ,
+.cb-color7 .main-header ,
+.cb-color7 .offer-discount  ,
+.cb-color7 .our-advantages .adv-box .icon-back
+{ background: linear-gradient(to right , #383509, #BABA18 );}
+
+.bgcolor7,
+.cb-color7 .log-form-box .btn,
+.cb-color7 .checkmark,
+.cb-color7 .my-option:hover input ~ .checkmark ,
+.cb-color7 .my-option .checkmark::before,
+.cb-color7 .my-option .checkmark::before,
+.cb-color7 .center-box .valdate-bar-ul .bg-info,
+.cb-color7 .product-add-to-cart-box .prod-count span ,
+.cb-color7 .pro-today-offer-box .progress .bg-info,
+.cb-color7 .blue-h4 h4,
+.cb-color7 .shop-home-item-btns p,
+.cb-color7 .finished-order .btn ,
+.cb-color7 .finished-order .btn:hover ,
+.cb-color7 .single-page-products .bottom ul a:hover,
+.cb-color7 .single-page-products .bottom ul a:active,
+.cb-color7 .single-page-products .bottom ul a:focus ,
+.cb-color7 .btn-info ,
+.cb-color7 .header-icon-box a ,
+.cb-color7 .search-icon ,
+.cb-color7 .dropdown.first-itm ,
+.cb-color7 .Homecarousel .owl-dot ,
+.cb-color7 .home-slider-item-details .btn ,
+
+.cb-color7 .all-offer-btn-box .btn ,
+.cb-color7 .add-box .btn  ,
+.cb-color7 .footer-head ul ,
+.cb-color7 .pagination-next-btn ,
+.cb-color7 .brach-map,
+.cb-color7  .color_panel  p ,
+.cb-color7  .pro-cart-icon .fa-shopping-cart ,
+.cb-color7  .brach-map
+{
+    background-color:  #FFFF00  !important;
+}
+
+
+.cb-color7 .log-form-box .form-control,
+.cb-color7 .log-form-box .btn:hover a,
+.cb-color7 .product-add-to-cart-box .insider .close-ico,
+.cb-color7 .pro-today-offer-box h3,
+.cb-color7 .register-body .icofont.icofont-eye ,
+.cb-color7 .register-body  legand ,
+.cb-color7 .quest-page-bottom h5 a ,
+.cb-color7 .help-box .close-ico  , 
+.cb-color7 .favourite-page .fav-itm-del .icofont ,
+.cb-color7 .cart-page .cart-itm-del .icofont ,
+.cb-color7 .cart-item-count .prod-count .icofont ,
+.cb-color7 .cart-page .cart-alert a ,
+.cb-color7 .shop-home-active-tab ,
+.cb-color7 .add-dicount-box h3 ,
+.cb-color7 .add-dicount-box .prod-count .icofont ,
+.cb-color7 .shop-notification-head li ,
+.cb-color7 .add-product-head li ,
+.cb-color7 .formfield .prod-count .icofont ,
+.cb-color7 .buy-prod-page .reg-field legand ,
+.cb-color7 .pay-type li ,
+.cb-color7 .moly-buyprod-serives label ,
+.cb-color7 .btn:hover a ,
+.cb-color7 .btn:active a ,
+.cb-color7 .btn:focus  a ,
+
+
+.cb-color7 .clothes-cateogrey a:hover ,
+.cb-color7 .Clothescarousel .owl-prev:hover , 
+.cb-color7 .Clothescarousel .owl-next:hover ,
+.cb-color7 .footer-sect-ul a:hover, 
+.cb-color7 .footer-min-sect a:hover  ,
+.cb-color7 .footer-sect-ul a:focus, 
+.cb-color7 .footer-min-sect a:focus ,
+.cb-color7 .footer-sect-ul a:active,
+.cb-color7 .footer-min-sect a:active ,
+.cb-color7 .offer-box-head .active ,
+.cb-color7 .offer-title ,
+.cb-color7 .NEW-PRODUCTS-HEAD .col.left-col ,
+.cb-color7 .clothes-cateogrey h3  a  ,
+.cb-color7 .footer-cont-ul .svg-inline--fa ,
+.cb-color7 .footer-social-ul li a ,
+.cb-color7 .pag-head-search-box .form-control  ,
+.cb-color7 .pag-head-search-box .icofont ,
+.cb-color7 .single-page-products  .current ,
+.cb-color7 .single-page-products .nice-select ul ,
+.cb-color7 .single-page-products .nice-select li ,
+.cb-color7 .single-page-products .bottom ul a.active ,
+.cb-color7 .search-page-results .nice-select ul ,
+.cb-color7 .search-page-results  .current ,
+.cb-color7 .search-page-results .nice-select li ,
+.cb-color7 .icon-back-insider,
+.cb-color7 .product-add-to-cart-box .btn:hover,
+.cb-color7 .profile-body .info-box-bottom  .btn:hover 
+{
+    color: #FFFF00  !important;
+}
+
+
+.cb-color7 .bottom-header ul li a:hover ,
+.cb-color7 .top-header ul li:hover , 
+.cb-color7.top-header ul li:hover a 
+{ color: #230017 ;}
+
+.cb-color7 .linear-line {    border-top: 1px solid #FFFF00 ; }
+
+
+/*===================================================
+=================// Dark blue  //====================
+===================================================*/
+.cb-color8 .product-description-body .prod-active-tab , 
+.cb-color8 .similar-products .head h3 ,
+.cb-color8 .product-add-to-cart-box .insider h3 ,
+.cb-color8 .shop-home-active-tab ,
+.cb-color8 .add-dicount-box h3 ,
+.cb-color8 .shop-notification-head li ,
+.cb-color8 .add-product-head li ,
+.cb-color8 .offer-box-head .active ,
+.cb-color8 .NEW-PRODUCTS-HEAD .npro-active ,
+.cb-color8 .brand-head h3 ,
+.cb-color8 .single-page-slider-box .head h3 ,
+.cb-color8 .single-page-brands .head h3 
+{ border-bottom: 1px solid   #0B0B3B  !important;}
+
+.cb-color8 .product-description-body .prod-active-tab::before  ,
+.cb-color8 .register-body .register-form-box h3::before ,
+.cb-color8 .shop-home-active-tab::before ,
+.cb-color8 .shop-notification-head li::before ,
+.cb-color8 .add-product-head li:before ,
+.cb-color8 .buy-prod-page .buy-page-box h3::before ,
+.cb-color8 .offer-box-head .active::before  ,
+.cb-color8 .NEW-PRODUCTS-HEAD .npro-active::before  ,
+.cb-color8 .single-page-slider-box .head h3::before ,
+.cb-color8 .single-page-brands .head h3::before  ,
+.cb-color8.buy-page-requestproducts h3::before ,
+.cb-color8 .log-form-box h3::before 
+{ border-top: 8px solid   #0B0B3B  !important;}
+
+.cb-color8 .product-add-to-cart-box  .active-choose  { border-color:   #0B0B3B  !important; }
+
+.cb-color8 .prob-choosed ,
+.cb-color8 .btn:hover , 
+.cb-color8 .btn:active , 
+.cb-color8 .btn:focus ,
+.cb-color8 .single-page-products .bottom ul a:hover,
+.cb-color8 .single-page-products .bottom ul a:active,
+.cb-color8 .single-page-products .bottom ul a:focus ,
+.cb-color8 .btn-info ,
+.cb-color8 .home-slider-item-details .btn ,
+.cb-color8 .all-offer-btn-box .btn  ,
+.cb-color8 .TODAY-OFFER-side .box ,
+.cb-color8 .add-box .btn  ,
+.cb-color8 .single-page-products .bottom ul a.active 
+{ border:1px solid   #0B0B3B  !important;} 
+
+
+.cb-color8 .single-page-products .nice-select::after ,
+.cb-color8 .search-page-results .nice-select::after
+{
+    border-bottom: 2px solid   #0B0B3B ;
+    border-right: 2px solid   #0B0B3B ;
+}
+
+.cb-color8 .return-body h2::before ,
+.cb-color8 .about-header h4::before 
+{   border-top: 10px solid   #0B0B3B ; }
+
+
+.cb-color8 .right-box h3 ,
+.cb-color8 .prod-page-today-offer .discount ,
+.cb-color8 .main-header ,
+.cb-color8 .offer-discount  ,
+.cb-color8 .our-advantages .adv-box .icon-back
+{ background: linear-gradient(to right , #090060, #393953 ); }
+
+.bgcolor8,
+.cb-color8 .log-form-box .btn,
+.cb-color8 .checkmark,
+.cb-color8 .my-option:hover input ~ .checkmark ,
+.cb-color8 .my-option .checkmark::before,
+.cb-color8 .my-option .checkmark::before,
+.cb-color8 .center-box .valdate-bar-ul .bg-info,
+.cb-color8 .product-add-to-cart-box .prod-count span ,
+.cb-color8 .pro-today-offer-box .progress .bg-info,
+.cb-color8 .blue-h4 h4,
+.cb-color8 .shop-home-item-btns p,
+.cb-color8 .finished-order .btn ,
+.cb-color8 .finished-order .btn:hover ,
+.cb-color8 .single-page-products .bottom ul a:hover,
+.cb-color8 .single-page-products .bottom ul a:active,
+.cb-color8 .single-page-products .bottom ul a:focus ,
+.cb-color8 .btn-info ,
+.cb-color8 .header-icon-box a ,
+.cb-color8 .search-icon ,
+.cb-color8 .dropdown.first-itm ,
+.cb-color8 .Homecarousel .owl-dot ,
+.cb-color8 .home-slider-item-details .btn ,
+.cb-color8 .pro-cart-icon .fa-shopping-cart ,
+.cb-color8 .all-offer-btn-box .btn ,
+.cb-color8 .add-box .btn  ,
+.cb-color8 .footer-head ul ,
+.cb-color8 .pagination-next-btn ,
+.cb-color8 .brach-map,
+.cb-color8  .color_panel  p ,
+.cb-color8  .brach-map
+{
+    background-color:   #0B0B3B  !important;
+}
+
+
+.cb-color8 .log-form-box .form-control,
+.cb-color8 .log-form-box .btn:hover a,
+.cb-color8 .product-add-to-cart-box .insider .close-ico,
+.cb-color8 .pro-today-offer-box h3,
+.cb-color8 .register-body .icofont.icofont-eye ,
+.cb-color8 .register-body  legand ,
+.cb-color8 .quest-page-bottom h5 a ,
+.cb-color8 .help-box .close-ico  , 
+.cb-color8 .favourite-page .fav-itm-del .icofont ,
+.cb-color8 .cart-page .cart-itm-del .icofont ,
+.cb-color8 .cart-item-count .prod-count .icofont ,
+.cb-color8 .cart-page .cart-alert a ,
+.cb-color8 .shop-home-active-tab ,
+.cb-color8 .add-dicount-box h3 ,
+.cb-color8 .add-dicount-box .prod-count .icofont ,
+.cb-color8 .shop-notification-head li ,
+.cb-color8 .add-product-head li ,
+.cb-color8 .formfield .prod-count .icofont ,
+.cb-color8 .buy-prod-page .reg-field legand ,
+.cb-color8 .pay-type li ,
+.cb-color8 .moly-buyprod-serives label ,
+.cb-color8 .btn:hover a ,
+.cb-color8 .btn:active a ,
+.cb-color8 .btn:focus  a ,
+
+
+.cb-color8 .clothes-cateogrey a:hover ,
+.cb-color8 .Clothescarousel .owl-prev:hover , 
+.cb-color8 .Clothescarousel .owl-next:hover ,
+.cb-color8 .footer-sect-ul a:hover, 
+.cb-color8 .footer-min-sect a:hover  ,
+.cb-color8 .footer-sect-ul a:focus, 
+.cb-color8 .footer-min-sect a:focus ,
+.cb-color8 .footer-sect-ul a:active,
+.cb-color8 .footer-min-sect a:active ,
+.cb-color8 .offer-box-head .active ,
+.cb-color8 .offer-title ,
+.cb-color8 .NEW-PRODUCTS-HEAD .col.left-col ,
+.cb-color8 .clothes-cateogrey h3  a  ,
+.cb-color8 .footer-cont-ul .svg-inline--fa ,
+.cb-color8 .footer-social-ul li a ,
+.cb-color8 .pag-head-search-box .form-control  ,
+.cb-color8 .pag-head-search-box .icofont ,
+.cb-color8 .single-page-products  .current ,
+.cb-color8 .single-page-products .nice-select ul ,
+.cb-color8 .single-page-products .nice-select li ,
+.cb-color8 .single-page-products .bottom ul a.active ,
+.cb-color8 .search-page-results .nice-select ul ,
+.cb-color8 .search-page-results  .current ,
+.cb-color8 .search-page-results .nice-select li ,
+.cb-color8 .icon-back-insider,
+.cb-color8 .product-add-to-cart-box .btn:hover,
+.cb-color8 .profile-body .info-box-bottom  .btn:hover 
+{
+    color:  #0B0B3B  !important;
+}
+
+
+.cb-color8 .bottom-header ul li a:hover ,
+.cb-color8 .top-header ul li:hover , 
+.cb-color8.top-header ul li:hover a 
+{ color: #7B9209 ;}
+
+.cb-color8 .linear-line {    border-top: 1px solid  #0B0B3B ; }
+
+
+
+/*===================================================
+=================// Orange     //====================
+===================================================*/
+.cb-color9 .product-description-body .prod-active-tab , 
+.cb-color9 .similar-products .head h3 ,
+.cb-color9 .product-add-to-cart-box .insider h3 ,
+.cb-color9 .shop-home-active-tab ,
+.cb-color9 .add-dicount-box h3 ,
+.cb-color9 .shop-notification-head li ,
+.cb-color9 .add-product-head li ,
+.cb-color9 .offer-box-head .active ,
+.cb-color9 .NEW-PRODUCTS-HEAD .npro-active ,
+.cb-color9 .brand-head h3 ,
+.cb-color9 .single-page-slider-box .head h3 ,
+.cb-color9 .single-page-brands .head h3 
+{ border-bottom: 1px solid   #ff9800  !important;}
+
+.cb-color9 .product-description-body .prod-active-tab::before  ,
+.cb-color9 .register-body .register-form-box h3::before ,
+.cb-color9 .shop-home-active-tab::before ,
+.cb-color9 .shop-notification-head li::before ,
+.cb-color9 .add-product-head li:before ,
+.cb-color9 .buy-prod-page .buy-page-box h3::before ,
+.cb-color9 .offer-box-head .active::before  ,
+.cb-color9 .NEW-PRODUCTS-HEAD .npro-active::before  ,
+.cb-color9 .single-page-slider-box .head h3::before ,
+.cb-color9 .single-page-brands .head h3::before  ,
+.cb-color9.buy-page-requestproducts h3::before ,
+.cb-color9 .log-form-box h3::before 
+{ border-top: 8px solid   #ff9800  !important;}
+
+.cb-color9 .product-add-to-cart-box  .active-choose  { border-color:   #ff9800  !important; }
+
+.cb-color9 .prob-choosed ,
+.cb-color9 .btn:hover , 
+.cb-color9 .btn:active , 
+.cb-color9 .btn:focus ,
+.cb-color9 .single-page-products .bottom ul a:hover,
+.cb-color9 .single-page-products .bottom ul a:active,
+.cb-color9 .single-page-products .bottom ul a:focus ,
+.cb-color9 .btn-info ,
+.cb-color9 .home-slider-item-details .btn ,
+.cb-color9 .all-offer-btn-box .btn  ,
+.cb-color9 .TODAY-OFFER-side .box ,
+.cb-color9 .add-box .btn  ,
+.cb-color9 .single-page-products .bottom ul a.active 
+{ border:1px solid   #ff9800  !important;} 
+
+
+.cb-color9 .single-page-products .nice-select::after ,
+.cb-color9 .search-page-results .nice-select::after
+{
+    border-bottom: 2px solid   #ff9800 ;
+    border-right: 2px solid   #ff9800 ;
+}
+
+.cb-color9 .return-body h2::before ,
+.cb-color9 .about-header h4::before 
+{   border-top: 10px solid   #ff9800 ; }
+
+
+.cb-color9 .right-box h3 ,
+.cb-color9 .prod-page-today-offer .discount ,
+.cb-color9 .main-header ,
+.cb-color9 .offer-discount  ,
+.cb-color9 .our-advantages .adv-box .icon-back
+{ background: linear-gradient(to right , #532a03,   #ff9800  ); }
+
+.bgcolor9,
+.cb-color9 .log-form-box .btn,
+.cb-color9 .checkmark,
+.cb-color9 .my-option:hover input ~ .checkmark ,
+.cb-color9 .my-option .checkmark::before,
+.cb-color9 .my-option .checkmark::before,
+.cb-color9 .center-box .valdate-bar-ul .bg-info,
+.cb-color9 .product-add-to-cart-box .prod-count span ,
+.cb-color9 .pro-today-offer-box .progress .bg-info,
+.cb-color9 .blue-h4 h4,
+.cb-color9 .shop-home-item-btns p,
+.cb-color9 .finished-order .btn ,
+.cb-color9 .finished-order .btn:hover ,
+.cb-color9 .single-page-products .bottom ul a:hover,
+.cb-color9 .single-page-products .bottom ul a:active,
+.cb-color9 .single-page-products .bottom ul a:focus ,
+.cb-color9 .btn-info ,
+.cb-color9 .header-icon-box a ,
+.cb-color9 .search-icon ,
+.cb-color9 .dropdown.first-itm ,
+.cb-color9 .Homecarousel .owl-dot ,
+.cb-color9 .home-slider-item-details .btn ,
+.cb-color9 .pro-cart-icon .fa-shopping-cart ,
+.cb-color9 .all-offer-btn-box .btn ,
+.cb-color9 .add-box .btn  ,
+.cb-color9 .footer-head ul ,
+.cb-color9 .pagination-next-btn ,
+.cb-color9 .brach-map,
+.cb-color9  .color_panel  p ,
+.cb-color9  .brach-map
+{
+    background-color:   #ff9800  !important;
+}
+
+
+.cb-color9 .log-form-box .form-control,
+.cb-color9 .log-form-box .btn:hover a,
+.cb-color9 .product-add-to-cart-box .insider .close-ico,
+.cb-color9 .pro-today-offer-box h3,
+.cb-color9 .register-body .icofont.icofont-eye ,
+.cb-color9 .register-body  legand ,
+.cb-color9 .quest-page-bottom h5 a ,
+.cb-color9 .help-box .close-ico  , 
+.cb-color9 .favourite-page .fav-itm-del .icofont ,
+.cb-color9 .cart-page .cart-itm-del .icofont ,
+.cb-color9 .cart-item-count .prod-count .icofont ,
+.cb-color9 .cart-page .cart-alert a ,
+.cb-color9 .shop-home-active-tab ,
+.cb-color9 .add-dicount-box h3 ,
+.cb-color9 .add-dicount-box .prod-count .icofont ,
+.cb-color9 .shop-notification-head li ,
+.cb-color9 .add-product-head li ,
+.cb-color9 .formfield .prod-count .icofont ,
+.cb-color9 .buy-prod-page .reg-field legand ,
+.cb-color9 .pay-type li ,
+.cb-color9 .moly-buyprod-serives label ,
+.cb-color9 .btn:hover a ,
+.cb-color9 .btn:active a ,
+.cb-color9 .btn:focus  a ,
+
+
+.cb-color9 .clothes-cateogrey a:hover ,
+.cb-color9 .Clothescarousel .owl-prev:hover , 
+.cb-color9 .Clothescarousel .owl-next:hover ,
+.cb-color9 .footer-sect-ul a:hover, 
+.cb-color9 .footer-min-sect a:hover  ,
+.cb-color9 .footer-sect-ul a:focus, 
+.cb-color9 .footer-min-sect a:focus ,
+.cb-color9 .footer-sect-ul a:active,
+.cb-color9 .footer-min-sect a:active ,
+.cb-color9 .offer-box-head .active ,
+.cb-color9 .offer-title ,
+.cb-color9 .NEW-PRODUCTS-HEAD .col.left-col ,
+.cb-color9 .clothes-cateogrey h3  a  ,
+.cb-color9 .footer-cont-ul .svg-inline--fa ,
+.cb-color9 .footer-social-ul li a ,
+.cb-color9 .pag-head-search-box .form-control  ,
+.cb-color9 .pag-head-search-box .icofont ,
+.cb-color9 .single-page-products  .current ,
+.cb-color9 .single-page-products .nice-select ul ,
+.cb-color9 .single-page-products .nice-select li ,
+.cb-color9 .single-page-products .bottom ul a.active ,
+.cb-color9 .search-page-results .nice-select ul ,
+.cb-color9 .search-page-results  .current ,
+.cb-color9 .search-page-results .nice-select li ,
+.cb-color9 .icon-back-insider,
+.cb-color9 .product-add-to-cart-box .btn:hover,
+.cb-color9 .profile-body .info-box-bottom  .btn:hover 
+{
+    color:   #ff9800   !important;
+}
+
+
+.cb-color9 .bottom-header ul li a:hover ,
+.cb-color9 .top-header ul li:hover , 
+.cb-color9.top-header ul li:hover a 
+{ color:  #500c48 ;}
+
+.cb-color9 .linear-line {    border-top: 1px solid  #ff9800 ; }
+
+
+
+/*===================================================
+=================// purple     //====================
+===================================================*/
+.cb-color10 .product-description-body .prod-active-tab , 
+.cb-color10 .similar-products .head h3 ,
+.cb-color10 .product-add-to-cart-box .insider h3 ,
+.cb-color10 .shop-home-active-tab ,
+.cb-color10 .add-dicount-box h3 ,
+.cb-color10 .shop-notification-head li ,
+.cb-color10 .add-product-head li ,
+.cb-color10 .offer-box-head .active ,
+.cb-color10 .NEW-PRODUCTS-HEAD .npro-active ,
+.cb-color10 .brand-head h3 ,
+.cb-color10 .single-page-slider-box .head h3 ,
+.cb-color10 .single-page-brands .head h3 
+{ border-bottom: 1px solid  #c51162 !important;}
+
+.cb-color10 .product-description-body .prod-active-tab::before  ,
+.cb-color10 .register-body .register-form-box h3::before ,
+.cb-color10 .shop-home-active-tab::before ,
+.cb-color10 .shop-notification-head li::before ,
+.cb-color10 .add-product-head li:before ,
+.cb-color10 .buy-prod-page .buy-page-box h3::before ,
+.cb-color10 .offer-box-head .active::before  ,
+.cb-color10 .NEW-PRODUCTS-HEAD .npro-active::before  ,
+.cb-color10 .single-page-slider-box .head h3::before ,
+.cb-color10 .single-page-brands .head h3::before  ,
+.cb-color10 .buy-page-requestproducts h3::before ,
+.cb-color10 .log-form-box h3::before 
+{ border-top: 8px solid  #c51162 !important;}
+
+.cb-color10 .product-add-to-cart-box  .active-choose  { border-color:  #c51162 !important; }
+
+.cb-color10 .prob-choosed ,
+.cb-color10 .btn:hover , 
+.cb-color10 .btn:active , 
+.cb-color10 .btn:focus ,
+.cb-color10 .single-page-products .bottom ul a:hover,
+.cb-color10 .single-page-products .bottom ul a:active,
+.cb-color10 .single-page-products .bottom ul a:focus ,
+.cb-color10 .btn-info ,
+.cb-color10 .home-slider-item-details .btn ,
+.cb-color10 .all-offer-btn-box .btn  ,
+.cb-color10 .TODAY-OFFER-side .box ,
+.cb-color10 .add-box .btn  ,
+.cb-color10 .single-page-products .bottom ul a.active 
+{ border:1px solid  #c51162 !important;} 
+
+
+.cb-color10 .single-page-products .nice-select::after ,
+.cb-color10 .search-page-results .nice-select::after
+{
+    border-bottom: 2px solid  #c51162;
+    border-right: 2px solid  #c51162;
+}
+
+.cb-color10 .return-body h2::before ,
+.cb-color10 .about-header h4::before 
+{   border-top: 10px solid  #c51162; }
+
+
+.cb-color10 .right-box h3 ,
+.cb-color10 .prod-page-today-offer .discount ,
+.cb-color10 .main-header ,
+.cb-color10 .offer-discount  ,
+.cb-color10 .our-advantages .adv-box .icon-back
+{ background: linear-gradient(to right , #29011e,  #c51162 ); }
+
+.bgcolor10,
+.cb-color10 .log-form-box .btn,
+.cb-color10 .checkmark,
+.cb-color10 .my-option:hover input ~ .checkmark ,
+.cb-color10 .my-option .checkmark::before,
+.cb-color10 .my-option .checkmark::before,
+.cb-color10 .center-box .valdate-bar-ul .bg-info,
+.cb-color10 .product-add-to-cart-box .prod-count span ,
+.cb-color10 .pro-today-offer-box .progress .bg-info,
+.cb-color10 .blue-h4 h4,
+.cb-color10 .shop-home-item-btns p,
+.cb-color10 .finished-order .btn ,
+.cb-color10 .finished-order .btn:hover ,
+.cb-color10 .single-page-products .bottom ul a:hover,
+.cb-color10 .single-page-products .bottom ul a:active,
+.cb-color10 .single-page-products .bottom ul a:focus ,
+.cb-color10 .btn-info ,
+.cb-color10 .header-icon-box a ,
+.cb-color10 .search-icon ,
+.cb-color10 .dropdown.first-itm ,
+.cb-color10 .Homecarousel .owl-dot ,
+.cb-color10 .home-slider-item-details .btn ,
+.cb-color10  .pro-cart-icon .fa-shopping-cart ,
+.cb-color10 .all-offer-btn-box .btn ,
+.cb-color10 .add-box .btn  ,
+.cb-color10 .footer-head ul ,
+.cb-color10 .pagination-next-btn ,
+.cb-color10 .brach-map,
+.cb-color10  .color_panel p ,
+.cb-color10  .brach-map
+{
+    background-color:  #c51162 !important;
+}
+
+
+.cb-color10 .log-form-box .form-control,
+.cb-color10 .log-form-box .btn:hover a,
+.cb-color10 .product-add-to-cart-box .insider .close-ico,
+.cb-color10 .pro-today-offer-box h3,
+.cb-color10 .register-body .icofont.icofont-eye ,
+.cb-color10 .register-body  legand ,
+.cb-color10 .quest-page-bottom h5 a ,
+.cb-color10 .help-box .close-ico  , 
+.cb-color10 .favourite-page .fav-itm-del .icofont ,
+.cb-color10 .cart-page .cart-itm-del .icofont ,
+.cb-color10 .cart-item-count .prod-count .icofont ,
+.cb-color10 .cart-page .cart-alert a ,
+.cb-color10 .shop-home-active-tab ,
+.cb-color10 .add-dicount-box h3 ,
+.cb-color10 .add-dicount-box .prod-count .icofont ,
+.cb-color10 .shop-notification-head li ,
+.cb-color10 .add-product-head li ,
+.cb-color10 .formfield .prod-count .icofont ,
+.cb-color10 .buy-prod-page .reg-field legand ,
+.cb-color10 .pay-type li ,
+.cb-color10 .moly-buyprod-serives label ,
+.cb-color10 .btn:hover a ,
+.cb-color10 .btn:active a ,
+.cb-color10 .btn:focus  a ,
+
+
+.cb-color10 .clothes-cateogrey a:hover ,
+.cb-color10 .Clothescarousel .owl-prev:hover , 
+.cb-color10 .Clothescarousel .owl-next:hover ,
+.cb-color10 .footer-sect-ul a:hover, 
+.cb-color10 .footer-min-sect a:hover  ,
+.cb-color10 .footer-sect-ul a:focus, 
+.cb-color10 .footer-min-sect a:focus ,
+.cb-color10 .footer-sect-ul a:active,
+.cb-color10 .footer-min-sect a:active ,
+.cb-color10 .offer-box-head .active ,
+.cb-color10 .offer-title ,
+.cb-color10 .NEW-PRODUCTS-HEAD .col.left-col ,
+.cb-color10 .clothes-cateogrey h3  a  ,
+.cb-color10 .footer-cont-ul .svg-inline--fa ,
+.cb-color10 .footer-social-ul li a ,
+.cb-color10 .pag-head-search-box .form-control  ,
+.cb-color10 .pag-head-search-box .icofont ,
+.cb-color10 .single-page-products  .current ,
+.cb-color10 .single-page-products .nice-select ul ,
+.cb-color10 .single-page-products .nice-select li ,
+.cb-color10 .single-page-products .bottom ul a.active ,
+.cb-color10 .search-page-results .nice-select ul ,
+.cb-color10 .search-page-results  .current ,
+.cb-color10 .search-page-results .nice-select li ,
+.cb-color10 .icon-back-insider,
+.cb-color10 .product-add-to-cart-box .btn:hover ,
+.cb-color10 .profile-body .info-box-bottom  .btn:hover 
+
+{
+    color:  #c51162  !important;
+}
+
+
+.cb-color10 .bottom-header ul li a:hover ,
+.cb-color10 .top-header ul li:hover , 
+.cb-color10.top-header ul li:hover a 
+{ color: #0d9a9f;}
+
+.cb-color10 .linear-line {    border-top: 1px solid #c51162; }
+
+
+
+
+
+
+.all-offer-btn-box .btn:hover a{ color: #fff !important;}
